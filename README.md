@@ -94,7 +94,48 @@
   <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" width="40"/>
 </p>
 ---
+---
 
+## 🏅 Co-Curricular Highlights
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=FACC15&center=true&vCenter=true&width=700&lines=Beyond+Coding+-+My+Co-Curricular+Journey!" alt="Typing SVG" />
+</p>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center" width="200">🏷️ Activity</th>
+      <th align="center" width="500">📄 Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">🎤 <strong>Tech Talks</strong></td>
+      <td>Participated in seminars & webinars on <strong>Flutter</strong>, <strong>Firebase</strong>, and modern web tech</td>
+    </tr>
+    <tr>
+      <td align="center">🏆 <strong>Hackathons</strong></td>
+      <td>Built projects under pressure in <strong>AI & Full Stack Hackathons</strong> (ranked top 10%)</td>
+    </tr>
+    <tr>
+      <td align="center">🧠 <strong>Competitive Programming</strong></td>
+      <td>Solved 200+ problems on platforms like <strong>LeetCode</strong>, <strong>Hackerrank</strong>, and <strong>Codeforces</strong></td>
+    </tr>
+    <tr>
+      <td align="center">🤝 <strong>Volunteering</strong></td>
+      <td>Helped organize <strong>CSE Club</strong> tech events and guided juniors in club activities</td>
+    </tr>
+    <tr>
+      <td align="center">🌐 <strong>Open Source</strong></td>
+      <td>Contributed to beginner-friendly GitHub repos on <strong>JavaScript, React</strong></td>
+    </tr>
+    <tr>
+      <td align="center">👨‍🏫 <strong>Mentorship</strong></td>
+      <td>Mentored juniors in building their own projects with <strong>Flutter, Firebase, UI/UX</strong> design</td>
+    </tr>
+  </tbody>
+</table>
 📊 GitHub Stats
 
 <p align="center">
