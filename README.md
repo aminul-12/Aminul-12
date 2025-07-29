@@ -1,22 +1,33 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FFD5&center=true&vCenter=true&width=750&lines=Hi+👋+I'm+Aminul+Islam;Final+Year+CSE+Student+from+Sylhet;Frontend+Developer+%7C+Firebase+Fan;AI+%26+ML+Learner;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&duration=3500&pause=800&color=00FFD5&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Aminul+Islam;CSE+Final+Year+Student+From+Bangladesh;Flutter+%7C+Firebase+%7C+React.js+Lover;Welcome+to+My+Professional+GitHub+Portfolio!" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Developer-00ffd5?style=flat-square&logo=html5&logoColor=black" />
-  <img src="https://img.shields.io/badge/Flutter-Firebase-orange?style=flat-square&logo=firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-ML%20Learner-green?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Sylhet%2C%20Bangladesh-ff69b4?style=flat-square&logo=google-maps" />
+  <img src="https://img.shields.io/badge/Frontend-Developer-00FFD5?style=for-the-badge&logo=html5&logoColor=black" />
+  <img src="https://img.shields.io/badge/Firebase-Auth-orange?style=for-the-badge&logo=firebase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-Creator-blue?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Sylhet%2C%20Bangladesh-ff69b4?style=for-the-badge&logo=google-maps" />
+  <img src="https://img.shields.io/badge/Netlify-Deployment-%2328B463?style=for-the-badge&logo=netlify&logoColor=white" />
 </p>
 
 ---
 
 ## 🧠 About Me
 
-🎓 Final-year student at RTM Al-Kabir Technical University  
-🚀 Passionate about frontend development, Firebase Auth & app security  
-🛠️ Skilled in Flutter, React.js, Firebase, Netlify & GitHub Pages  
-📊 Interested in visitor analytics, modular structures, and optimization  
+🎓 Final-year student in Computer Science and Engineering  
+🚀 Passionate about scalable frontend development & secure hosting  
+📱 Building cross-platform apps using Flutter + Firebase  
+🔐 Focused on privacy-first web deployments (GitHub Pages + Netlify)
+
+---
+
+## 🌱 Learning & Growing
+
+- 📘 Artificial Intelligence & Machine Learning  
+- 🔐 Firebase Authentication & Document Security  
+- 🌐 SEO optimization for academic portfolios  
+- 🎨 CSS gradients, hover effects, and modular UI  
+- 🔄 Flutter-Firebase app structures for classrooms
 
 ---
 
@@ -24,40 +35,50 @@
 
 | Project | Description | Live |
 |--------|-------------|------|
-| 🌐 Portfolio | Firebase Auth, PDF previews, SEO, dark mode toggle | [🔗 Visit Site](https://aminul-port.netlify.app/) |
-| 🧪 Chemical Adventure | Interactive educational UI | [🔗 View Project](https://chemicaladventure.netlify.app/) |
-| 📱 Multimedia Classroom App | Flutter & Firebase-based academic content platform | Coming Soon |
+| 🌐 Portfolio Website | Firebase Auth, PDF preview, SEO, dark mode toggle | [Visit](https://aminul-port.netlify.app/) |
+| 🧪 Chemical Adventure | Interactive chemistry showcase | [Launch](https://chemicaladventure.netlify.app/) |
+| 📱 Classroom App | Real-time image/video upload via Firebase (Coming soon) | Coming Soon |
+| 📰 News Presenter | Scripted layout with engaging styles | Demo Pending |
 
 ---
 
-## ⚙️ Tools & Technologies
+## ⚙️ Technologies & Tools
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" width="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/adobe-illustrator-cc.svg" width="40"/>
 </p>
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contact Me
+
+- 📧 Email: [mdaminulislam1516@gmail.com](mailto:mdaminulislam1516@gmail.com)  
+- 🔗 LinkedIn: [aminul-islam-97282b25a](https://www.linkedin.com/in/aminul-islam-97282b25a)  
+- 📘 Blogspot: [amndjcjcn360](https://amndjcjcn360.blogspot.com/?m=1)  
+- 🌐 Portfolio: [aminul-port.netlify.app](https://aminul-port.netlify.app/)
+
+---
+
+## 💬 Connect With Me
 
 <p align="center">
   <a href="mailto:mdaminulislam1516@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/aminul-port" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/aminul-islam-97282b25a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://amndjcjcn360.blogspot.com/?m=1" target="_blank"><img src="https://img.shields.io/badge/Blogspot-Article-FF7139?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+  <a href="https://github.com/aminul-port"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/aminul-islam-97282b25a"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aminul-port&show_icons=true&theme=radical" width="420" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=aminul-port&theme=radical&hide_border=false" width="420" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminul-port&layout=compact&theme=radical" width="420" />
+  <img src="https://github-readme-stats.vercel.app/api?username=aminul-port&show_icons=true&theme=radical" width="400" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=aminul-port&theme=radical" width="400" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminul-port&layout=compact&theme=radical" width="400" />
 </p>
