@@ -1,79 +1,131 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Aminul+Islam;Frontend+Developer+from+Bangladesh;AI+%26+ML+Learner;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aminul Islam | Professional Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fira Code', monospace;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+    }
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Developer-36BCF7?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-Machine%20Learning-green?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Bangladesh-ff69b4?style=flat-square&logo=google-maps" />
-</p>
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+    }
 
----
+    .typing-text {
+      font-size: 1.5em;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #36BCF7;
+      width: 0;
+      animation: typing 4s steps(50, end), blink 0.6s step-end infinite;
+    }
 
-## 🔭 Currently Working On
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
 
-- 🌐 [Full-stack development project](https://sylhet-tution.netlify.app/)
-- 🎓 [Portfolio website](https://aminul-port.netlify.app/)
-- 🧠 Research topics on compiler optimization & semantic error detection
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
 
----
+    img.profile {
+      width: 180px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px #00ffd599;
+      margin-top: 30px;
+    }
 
-## 🌱 Learning & Growing
+    .confetti {
+      position: fixed;
+      top: -20px;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 999;
+      animation: drop 3s ease-out forwards;
+    }
 
-- 📘 Artificial Intelligence & Machine Learning
-- 🔐 Privacy-focused frontend deployment strategies
-- 🔍 SEO optimization for academic portfolios
-- 🔄 Flutter + Firebase for multimedia classroom apps
+    @keyframes drop {
+      0% { transform: translateY(-100%) rotate(0deg); opacity: 0; }
+      100% { transform: translateY(100vh) rotate(360deg); opacity: 1; }
+    }
 
----
+    .link-btn {
+      background: #36BCF7;
+      color: #111;
+      padding: 10px 20px;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+    }
 
-## 💡 My Featured Projects
+    .project-card {
+      background-color: #222;
+      border-radius: 12px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 30px auto;
+      box-shadow: 0 0 10px #00ffd544;
+    }
 
-| Project | Description | Live |
-|--------|-------------|------|
-| 🌐 Portfolio | Professional showcase with Firebase Auth, PDF previews, analytics integration | [Visit Site](https://aminul-port.netlify.app/) |
-| 📰 News Presentation | Script-based presentation with animated design & clarity focus | |
-| 📱 Multimedia Classroom App | Upload & view system for academic content, built with Flutter & Firebase | Coming Soon |
+    .project-card h3 {
+      color: #00ffd5;
+      margin-bottom: 10px;
+    }
 
----
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
 
-## 📫 Reach Me Anytime
+  <!-- 🎊 Confetti Congratulations -->
+  <div class="confetti">🎉🎉🎉 Congratulations Aminul! 🎉🎉🎉</div>
 
-- ✉️ Email: [mdaminulislam1516@gmail.com](mailto:mdaminulislam1516@gmail.com)
-- 📄 [Browse My Portfolio](https://aminul-port.netlify.app/)
-- 📝 [Blogspot Articles](https://amndjcjcn360.blogspot.com/?m=1)
+  <header>
+    <div class="typing-text">Hi 👋, I'm Aminul Islam | Frontend Developer</div>
+    <img src="your-photo.jpg" alt="Aminul Islam" class="profile" />
+    <a href="https://linkedin.com/in/aminul-islam-97282b25a" class="link-btn">🔗 Connect on LinkedIn</a>
+    <a href="https://aminul-port.netlify.app/" class="link-btn">📂 Visit Portfolio</a>
+  </header>
 
----
+  <!-- 🎓 Project Showcase -->
+  <section class="project-card">
+    <h3>🧪 Chemical Adventure Project</h3>
+    <p>A web-based interactive chemistry playground built with educational intent, powered by animations and reaction simulations.</p>
+    <a href="https://chemicaladventure.netlify.app/" target="_blank" class="link-btn">🔗 Explore Project</a>
+  </section>
 
-## 📡 Connect With Me
+  <section class="project-card">
+    <h3>📘 About This Site</h3>
+    <p>This portfolio is built with HTML/CSS and vanilla JS enhancements including typing animation, animated confetti drop, and responsive layout — designed to reflect both professionalism and creativity. Firebase Auth, PDF previews, and analytics integration are available inside the full portfolio.</p>
+  </section>
 
-<p align="left">
-  <a href="mailto:mdaminulislam1516@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/aminul-port" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
+  <footer>
+    &copy; <span id="year"></span> Aminul Islam — Passionate about frontend development, secure design, and creative interfaces.
+  </footer>
 
----
-
-## 🛠️ Languages & Tools
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" width="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" width="40"/>
-</p>
-
----
-
-## 🔥 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aminul-port&show_icons=true&theme=radical" width="450" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=aminul-port&theme=radical&hide_border=false" width="450" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminul-port&layout=compact&theme=radical" width="450" />
-</p>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
