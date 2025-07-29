@@ -38,6 +38,17 @@
 </p>
 ---
 
+<p align="center">
+  <a href="https://chemicaladventure.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔬_Chemical_Adventure_Project-000?style=for-the-badge&logo=react&logoColor=white&color=6b7280" alt="Chemical Adventure Project" />
+  </a>
+  <a href="https://wa.me/8801306466265" target="_blank">
+    <img src="https://img.shields.io/badge/💬_Chat_on_WhatsApp-000?style=for-the-badge&logo=whatsapp&logoColor=white&color=25D366" alt="WhatsApp Chat" />
+  </a>
+</p>
+
+
+
 🚀 Current Focus
 
 🔭 Working on: Full Stack Project
