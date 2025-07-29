@@ -1,131 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Aminul Islam | Professional Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Fira Code', monospace;
-      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
-      color: #eee;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      overflow-x: hidden;
-    }
-
-    header {
-      padding: 40px 20px;
-      text-align: center;
-      position: relative;
-    }
-
-    .typing-text {
-      font-size: 1.5em;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 2px solid #36BCF7;
-      width: 0;
-      animation: typing 4s steps(50, end), blink 0.6s step-end infinite;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-
-    @keyframes blink {
-      50% { border-color: transparent }
-    }
-
-    img.profile {
-      width: 180px;
-      border-radius: 50%;
-      box-shadow: 0 0 15px #00ffd599;
-      margin-top: 30px;
-    }
-
-    .confetti {
-      position: fixed;
-      top: -20px;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: 999;
-      animation: drop 3s ease-out forwards;
-    }
-
-    @keyframes drop {
-      0% { transform: translateY(-100%) rotate(0deg); opacity: 0; }
-      100% { transform: translateY(100vh) rotate(360deg); opacity: 1; }
-    }
-
-    .link-btn {
-      background: #36BCF7;
-      color: #111;
-      padding: 10px 20px;
-      margin-top: 25px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
-      display: inline-block;
-    }
-
-    .project-card {
-      background-color: #222;
-      border-radius: 12px;
-      padding: 20px;
-      max-width: 700px;
-      margin: 30px auto;
-      box-shadow: 0 0 10px #00ffd544;
-    }
-
-    .project-card h3 {
-      color: #00ffd5;
-      margin-bottom: 10px;
-    }
-
-    footer {
-      margin-top: 60px;
-      padding: 20px;
-      color: #aaa;
-      font-size: 0.9em;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- 🎊 Confetti Congratulations -->
-  <div class="confetti">🎉🎉🎉 Congratulations Aminul! 🎉🎉🎉</div>
-
-  <header>
-    <div class="typing-text">Hi 👋, I'm Aminul Islam | Frontend Developer</div>
-    <img src="your-photo.jpg" alt="Aminul Islam" class="profile" />
-    <a href="https://linkedin.com/in/aminul-islam-97282b25a" class="link-btn">🔗 Connect on LinkedIn</a>
-    <a href="https://aminul-port.netlify.app/" class="link-btn">📂 Visit Portfolio</a>
-  </header>
-
-  <!-- 🎓 Project Showcase -->
-  <section class="project-card">
-    <h3>🧪 Chemical Adventure Project</h3>
-    <p>A web-based interactive chemistry playground built with educational intent, powered by animations and reaction simulations.</p>
-    <a href="https://chemicaladventure.netlify.app/" target="_blank" class="link-btn">🔗 Explore Project</a>
-  </section>
-
-  <section class="project-card">
-    <h3>📘 About This Site</h3>
-    <p>This portfolio is built with HTML/CSS and vanilla JS enhancements including typing animation, animated confetti drop, and responsive layout — designed to reflect both professionalism and creativity. Firebase Auth, PDF previews, and analytics integration are available inside the full portfolio.</p>
-  </section>
-
-  <footer>
-    &copy; <span id="year"></span> Aminul Islam — Passionate about frontend development, secure design, and creative interfaces.
-  </footer>
-
+<!-- 🌟 Typing Header -->
+<div style="text-align:center;padding:40px;background:#0f172a;color:#fff;">
+  <h1 id="typing" style="font-size:2em;"></h1>
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const txt = "👋 Hi, I'm Aminul — CSE Final Year | Web & App Dev";
+    let i=0; const speed=60;
+    function type() {
+      if(i<txt.length) {
+        document.getElementById("typing").innerHTML += txt.charAt(i);
+        i++; setTimeout(type,speed);
+      }
+    }
+    type();
   </script>
-</body>
-</html>
+</div>
+
+<!-- 🎉 Confetti Effect -->
+<div style="position:relative;height:140px;background:#031520;">
+  <h2 style="text-align:center;color:#00ffcc;">🎉 Congratulations!</h2>
+  <canvas id="confetti" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <script>
+    const c = document.getElementById("confetti"), ctx = c.getContext("2d");
+    c.width = window.innerWidth; c.height = 140;
+    const p = Array.from({length:80},()=>({
+      x:Math.random()*c.width,y:Math.random()*-c.height,s:Math.random()*6+2,
+      clr:`hsl(${Math.random()*360},70%,70%)`,spd:Math.random()*1.5+0.5
+    }));
+    function animate() {
+      ctx.clearRect(0,0,c.width,c.height);
+      p.forEach(e=>{
+        ctx.beginPath(); ctx.arc(e.x,e.y,e.s,0,Math.PI*2);
+        ctx.fillStyle=e.clr; ctx.fill(); e.y+=e.spd;
+        if(e.y>c.height) e.y=0;
+      }); requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+</div>
+
+<!-- 👨‍💻 Profile Card -->
+<div style="max-width:800px;margin:auto;padding:20px;background:#1a1a1a;border-radius:10px;color:#eee;box-shadow:0 0 10px #00ffc550;">
+  <img src="YOUR_IMAGE_URL" alt="Aminul Islam" style="width:100px;border-radius:50%;display:block;margin:auto;">
+  <h2 style="text-align:center;color:#00ffd5;">Aminul Islam</h2>
+  <p style="text-align:center;">🚀 CSE Final Year | Firebase Auth | Flutter | Netlify | React.js</p>
+</div>
+
+<!-- 📁 Project Showcase -->
+<div style="max-width:800px;margin:auto;padding:20px;">
+  <h3 style="color:#00ffcc;">🌐 Featured Project</h3>
+  <a href="https://chemicaladventure.netlify.app/" target="_blank" style="display:block;padding:10px;background:#222;border-radius:8px;color:#00ffd5;text-decoration:none;margin-top:10px;transition:0.3s;">
+    🔬 Chemical Adventure → Visit Site
+  </a>
+</div>
+
+<!-- 💡 Skills Section -->
+<div style="max-width:800px;margin:auto;padding:20px;">
+  <h3 style="color:#00ffcc;">💼 Skills</h3>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;">
+    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">React.js</span>
+    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Flutter</span>
+    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Firebase Auth</span>
+    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Netlify Deploy</span>
+    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Portfolio Security</span>
+  </div>
+</div>
+
+<!-- 📞 Contact Section -->
+<div style="max-width:800px;margin:auto;padding:20px;">
+  <h3 style="color:#00ffcc;">📬 Contact Me</h3>
+  <p>Email: <a href="mailto:aminul@example.com" style="color:#00ffd5;">aminul@example.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/aminul-islam-97282b25a" target="_blank" style="color:#00ffd5;">Visit Profile</a></p>
+</div>
