@@ -1,72 +1,63 @@
-<!-- 🌟 Typing Header -->
-<div style="text-align:center;padding:40px;background:#0f172a;color:#fff;">
-  <h1 id="typing" style="font-size:2em;"></h1>
-  <script>
-    const txt = "👋 Hi, I'm Aminul — CSE Final Year | Web & App Dev";
-    let i=0; const speed=60;
-    function type() {
-      if(i<txt.length) {
-        document.getElementById("typing").innerHTML += txt.charAt(i);
-        i++; setTimeout(type,speed);
-      }
-    }
-    type();
-  </script>
-</div>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FFD5&center=true&vCenter=true&width=750&lines=Hi+👋+I'm+Aminul+Islam;Final+Year+CSE+Student+from+Sylhet;Frontend+Developer+%7C+Firebase+Fan;AI+%26+ML+Learner;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
+</h1>
 
-<!-- 🎉 Confetti Effect -->
-<div style="position:relative;height:140px;background:#031520;">
-  <h2 style="text-align:center;color:#00ffcc;">🎉 Congratulations!</h2>
-  <canvas id="confetti" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
-  <script>
-    const c = document.getElementById("confetti"), ctx = c.getContext("2d");
-    c.width = window.innerWidth; c.height = 140;
-    const p = Array.from({length:80},()=>({
-      x:Math.random()*c.width,y:Math.random()*-c.height,s:Math.random()*6+2,
-      clr:`hsl(${Math.random()*360},70%,70%)`,spd:Math.random()*1.5+0.5
-    }));
-    function animate() {
-      ctx.clearRect(0,0,c.width,c.height);
-      p.forEach(e=>{
-        ctx.beginPath(); ctx.arc(e.x,e.y,e.s,0,Math.PI*2);
-        ctx.fillStyle=e.clr; ctx.fill(); e.y+=e.spd;
-        if(e.y>c.height) e.y=0;
-      }); requestAnimationFrame(animate);
-    }
-    animate();
-  </script>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-Developer-00ffd5?style=flat-square&logo=html5&logoColor=black" />
+  <img src="https://img.shields.io/badge/Flutter-Firebase-orange?style=flat-square&logo=firebase&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Enthusiast-ML%20Learner-green?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Sylhet%2C%20Bangladesh-ff69b4?style=flat-square&logo=google-maps" />
+</p>
 
-<!-- 👨‍💻 Profile Card -->
-<div style="max-width:800px;margin:auto;padding:20px;background:#1a1a1a;border-radius:10px;color:#eee;box-shadow:0 0 10px #00ffc550;">
-  <img src="YOUR_IMAGE_URL" alt="Aminul Islam" style="width:100px;border-radius:50%;display:block;margin:auto;">
-  <h2 style="text-align:center;color:#00ffd5;">Aminul Islam</h2>
-  <p style="text-align:center;">🚀 CSE Final Year | Firebase Auth | Flutter | Netlify | React.js</p>
-</div>
+---
 
-<!-- 📁 Project Showcase -->
-<div style="max-width:800px;margin:auto;padding:20px;">
-  <h3 style="color:#00ffcc;">🌐 Featured Project</h3>
-  <a href="https://chemicaladventure.netlify.app/" target="_blank" style="display:block;padding:10px;background:#222;border-radius:8px;color:#00ffd5;text-decoration:none;margin-top:10px;transition:0.3s;">
-    🔬 Chemical Adventure → Visit Site
-  </a>
-</div>
+## 🧠 About Me
 
-<!-- 💡 Skills Section -->
-<div style="max-width:800px;margin:auto;padding:20px;">
-  <h3 style="color:#00ffcc;">💼 Skills</h3>
-  <div style="display:flex;flex-wrap:wrap;gap:10px;">
-    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">React.js</span>
-    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Flutter</span>
-    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Firebase Auth</span>
-    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Netlify Deploy</span>
-    <span style="background:#00ffd5;padding:6px 12px;border-radius:6px;color:#000;">Portfolio Security</span>
-  </div>
-</div>
+🎓 Final-year student at RTM Al-Kabir Technical University  
+🚀 Passionate about frontend development, Firebase Auth & app security  
+🛠️ Skilled in Flutter, React.js, Firebase, Netlify & GitHub Pages  
+📊 Interested in visitor analytics, modular structures, and optimization  
 
-<!-- 📞 Contact Section -->
-<div style="max-width:800px;margin:auto;padding:20px;">
-  <h3 style="color:#00ffcc;">📬 Contact Me</h3>
-  <p>Email: <a href="mailto:aminul@example.com" style="color:#00ffd5;">aminul@example.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/aminul-islam-97282b25a" target="_blank" style="color:#00ffd5;">Visit Profile</a></p>
-</div>
+---
+
+## 🌟 Featured Projects
+
+| Project | Description | Live |
+|--------|-------------|------|
+| 🌐 Portfolio | Firebase Auth, PDF previews, SEO, dark mode toggle | [🔗 Visit Site](https://aminul-port.netlify.app/) |
+| 🧪 Chemical Adventure | Interactive educational UI | [🔗 View Project](https://chemicaladventure.netlify.app/) |
+| 📱 Multimedia Classroom App | Flutter & Firebase-based academic content platform | Coming Soon |
+
+---
+
+## ⚙️ Tools & Technologies
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" width="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/>
+</p>
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+  <a href="mailto:mdaminulislam1516@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/aminul-port" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/aminul-islam-97282b25a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://amndjcjcn360.blogspot.com/?m=1" target="_blank"><img src="https://img.shields.io/badge/Blogspot-Article-FF7139?style=for-the-badge&logo=blogger&logoColor=white"/></a>
+</p>
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aminul-port&show_icons=true&theme=radical" width="420" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=aminul-port&theme=radical&hide_border=false" width="420" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminul-port&layout=compact&theme=radical" width="420" />
+</p>
