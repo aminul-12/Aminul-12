@@ -148,6 +148,10 @@
   <a href="https://chemicaladventure.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/🔬_Chemical_Adventure_Project-000?style=for-the-badge&logo=chemex&logoColor=white&color=6b7280" alt="Chemical Adventure"/>
   </a>
+    <a href="https://eduglobeconsult.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔬_Chemical_Adventure_Project-000?style=for-the-badge&logo=chemex&logoColor=white&color=6b7280" alt="EduGlobeConsult"/>
+  </a>
+  
   <a href="tel:+8801306466265">
     <img src="https://img.shields.io/badge/📞_Call_Me-000?style=for-the-badge&logo=whatsapp&logoColor=white&color=10b981" alt="Call Me"/>
   </a>
