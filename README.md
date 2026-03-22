@@ -36,7 +36,7 @@
     <img src="https://img.shields.io/badge/💻_GitHub_Profile-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
----
+----
 
 <p align="center">
   <a href="https://chemicaladventure.netlify.app/" target="_blank">
